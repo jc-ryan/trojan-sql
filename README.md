@@ -58,4 +58,24 @@ If you encounter any issues during the replication process, please feel free to 
 
 If you find our paper or code beneficial, please consider citing our work:
 
-TO DO
+@inproceedings{zhang-etal-2023-trojansql,
+    title = "{T}rojan{SQL}: {SQL} Injection against Natural Language Interface to Database",
+    author = "Zhang, Jinchuan  and
+      Zhou, Yan  and
+      Hui, Binyuan  and
+      Liu, Yaxin  and
+      Li, Ziming  and
+      Hu, Songlin",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-main.264",
+    doi = "10.18653/v1/2023.emnlp-main.264",
+    pages = "4344--4359",
+    abstract = "The technology of text-to-SQL has significantly enhanced the efficiency of accessing and manipulating databases. However, limited research has been conducted to study its vulnerabilities emerging from malicious user interaction. By proposing TrojanSQL, a backdoor-based SQL injection framework for text-to-SQL systems, we show how state-of-the-art text-to-SQL parsers can be easily misled to produce harmful SQL statements that can invalidate user queries or compromise sensitive information about the database. The study explores two specific injection attacks, namely $\textit{boolean-based injection}$ and $\textit{union-based injection}$, which use different types of triggers to achieve distinct goals in compromising the parser. Experimental results demonstrate that both medium-sized models based on fine-tuning and LLM-based parsers using prompting techniques are vulnerable to this type of attack, with attack success rates as high as 99{\%} and 89{\%}, respectively. We hope that this study will raise more concerns about the potential security risks of building natural language interfaces to databases.",
+}
